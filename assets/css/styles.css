@@ -1,0 +1,86 @@
+body {
+  font-family:Arial, Helvetica, Sans-serif;
+}
+
+#logo {
+  max-height:42px;
+  margin-right:10px;
+  margin-top:-3px;
+  display:inline-block;
+}
+
+#Promo {
+  text-align:center;
+  padding:40px;
+  background-image:url(../../assets/img/hotel.jpg);
+  background-size:cover;
+  margin-top:65px;
+}
+
+@media (max-width: 992px) {
+  #Promo {
+    padding:20px;
+  }
+}
+
+#Promo .jumbotron {
+  background-color:rgba(255,255,255,0.75);
+  padding:40px;
+  border-radius:40px;
+  max-width:800px;
+  margin:0 auto;
+}
+
+@media (max-width: 992px) {
+  #Promo .jumbotron {
+    padding:20px;
+  }
+}
+
+.dark-section {
+  background-color:#e5ecf1;
+}
+
+.site-section {
+  text-align:center;
+  padding-bottom:70px;
+}
+
+.site-section h1 {
+  font-weight:normal;
+  margin-bottom:30px;
+  margin-top:30px;
+}
+
+#welcome p {
+  max-width:800px;
+  font-size:20px;
+  margin:0 auto;
+}
+
+#why .item {
+  padding-top:36px;
+}
+
+#why .item i {
+  font-size:42px;
+  color:#0808ff;
+}
+
+#why .item h2 {
+  font-weight:normal;
+  margin-top:13px;
+  margin-bottom:20px;
+  font-size:24px;
+}
+
+#why .item p {
+  color:#4e585f;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  /*color:rgba(0,0,0,.7);*/
+  border-color:transparent;
+  background-color:#a6a9ba;
+}
+
